@@ -10,10 +10,10 @@ import {
   TimeText,
   ButtonContainer,
   IconButton,
-} from './ChatPageStyles';
-import logo from '../src/assets/chatpage/logo.svg';
-import mute from '../src/assets/chatpage/mute.svg';
-import done from '../src/assets/chatpage/done.svg';
+} from './ChatPagestyles';
+import logo from '../../src/assets/chatpage/logo.svg';
+import mute from '../../src/assets/chatpage/mute.svg';
+import done from '../../src/assets/chatpage/done.svg';
 
 const ChatPage: React.FC = () => {
   const [isMuted, setIsMuted] = useState(false);
