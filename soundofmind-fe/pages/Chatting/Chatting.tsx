@@ -31,6 +31,47 @@ const Chatting: React.FC = () => {
       </Header>
       <Body>
         <div className="name2">IamYourAvatar</div>
+        <div className="other">
+          텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다.
+          텍스트입니다.
+        </div>
+        <div className="mine">텍스트입니다. 텍스트입니다. 텍스트입니다.</div>
+
+        <div className="other">
+          텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다.
+          텍스트입니다.
+        </div>
+        <div className="mine">텍스트입니다. 텍스트입니다. 텍스트입니다.</div>
+        <div className="other">
+          텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다.
+          텍스트입니다.
+        </div>
+        <div className="mine">텍스트입니다. 텍스트입니다. 텍스트입니다.</div>
+        <div className="other">
+          텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다.
+          텍스트입니다.
+        </div>
+        <div className="mine">
+          텍스트입니다. 텍스트입니다. 텍스트입니다.텍스트입니다. 텍스트입니다.
+          텍스트입니다.텍스트입니다. 텍스트입니다. 텍스트입니다.텍스트입니다.
+          텍스트입니다. 텍스트입니다.텍스트입니다. 텍스트입니다.
+          텍스트입니다.텍스트입니다. 텍스트입니다. 텍스트입니다.
+        </div>
+        <div className="other">
+          텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다.
+          텍스트입니다.
+        </div>
+        <div className="mine">텍스트입니다. 텍스트입니다. 텍스트입니다.</div>
+        <div className="other">
+          텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다.
+          텍스트입니다.
+        </div>
+        <div className="mine">텍스트입니다. 텍스트입니다. 텍스트입니다.</div>
+        <div className="other">
+          텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다. 텍스트입니다.
+          텍스트입니다.
+        </div>
+        <div className="mine">텍스트입니다. 텍스트입니다. 텍스트입니다.</div>
       </Body>
       <Footer>
         <div className="call">

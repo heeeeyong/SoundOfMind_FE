@@ -55,21 +55,53 @@ export const Header = styled.div`
 
 export const Body = styled.div`
   position: fixed;
-  left: 0;
   top: 0;
   height: 100vh;
   width: 375px;
   background-color: white;
-  margin-top: 90px;
-  padding: 0px 25px;
+  padding: 80px 25px 100px 25px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow-y: auto; /* 스크롤 가능하게! */
 
   .name2 {
     color: #020202;
     font-family: 'Pretendard Variable';
     font-size: 13px;
     font-weight: 500;
-    margin-bottom: 8px;
+  }
+
+  .other {
+    max-width: 266px;
+    height: auto;
+    border-radius: 15px;
+    background-color: #efefef;
+
+    color: #000;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 13px;
+    box-sizing: border-box;
+  }
+
+  .mine {
+    max-width: 266px;
+    height: auto;
+    border-radius: 15px;
+    background-color: #554acc;
+
+    color: #fff;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 13px;
+    box-sizing: border-box;
+    align-self: flex-end; /* ⬅️ 오른쪽 정렬 */
   }
 `;
 
